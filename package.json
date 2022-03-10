@@ -5,8 +5,9 @@
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "dev": "next dev -p 8080",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start -p 8080",
+    "clean": "npx rimraf .next out",
     "test": "jest",
     "test:config": "jest src/config/__tests__/ --testPathIgnorePatterns",
     "integration-test": "start-server-and-test start http://localhost:8080 'cypress run'",
