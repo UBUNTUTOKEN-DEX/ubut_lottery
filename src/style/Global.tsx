@@ -26,9 +26,12 @@ const GlobalStyle = createGlobalStyle`
   .vWwLy {
     background: #020305;
   }
-  .bFhYEH {
-    background: url(/images/decorations/bg_back.png) !important;
+    .bFhYEH {
+      background: url(/images/decorations/bg_back.png) !important;
 
+  }
+.fqKrUG{
+    background: url(/images/decorations/bg_back.png) !important;
   }
   .gpPoGP {
     background: linear-gradient(85.02deg, #C3BA53 0.75%, #C0884A 0.76%, #FAC579 42.64%, #A3743C 96.97%);
@@ -312,6 +315,28 @@ const GlobalStyle = createGlobalStyle`
   }
   .knyJNW {
     color:#baa564;
+  }
+  .ivbBKG {
+    margin-top:0px;
+  }
+  .kEKIMo {
+    display: none;
+  }
+  .dkoXHd {
+    display: none;
+  }
+  .bygrhu {
+    display: none;
+  }
+  .bZOekQ {
+
+    display: none;
+  }
+  .eohAVP {
+    display: none;
+  }
+  .cMeYRb {
+    margin: 0;
   }
 `
 

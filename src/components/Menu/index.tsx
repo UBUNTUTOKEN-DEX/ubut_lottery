@@ -29,20 +29,20 @@ const Menu = (props) => {
         return <NextLinkFromReactRouter to={linkProps.href} {...linkProps} prefetch={false} />
       }}
       userMenu={<UserMenu />}
-      // globalMenu={<GlobalSettings />}
-      // banner={showPhishingWarningBanner && typeof window !== 'undefined' && <PhishingWarningBanner />}
-      // isDark={isDark}
-      // toggleTheme={toggleTheme}
+      globalMenu={<GlobalSettings />}
+      banner={showPhishingWarningBanner && typeof window !== 'undefined' && <PhishingWarningBanner />}
+      isDark={isDark}
+      toggleTheme={toggleTheme}
       currentLang={currentLanguage.code}
       langs={languageList}
-      // setLang={setLanguage}
-      // cakePriceUsd={cakePriceUsd.toNumber()}
+      setLang={setLanguage}
+      cakePriceUsd={cakePriceUsd.toNumber()}
       links={config(t)}
-      // subLinks={activeMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
-      // footerLinks={footerLinks(t)}
-      // activeItem={activeMenuItem?.href}
-      // activeSubItem={activeSubMenuItem?.href}
-      // buyCakeLabel={t('Buy UBUT')}
+      subLinks={activeMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
+      footerLinks={footerLinks(t)}
+      activeItem={activeMenuItem?.href}
+      activeSubItem={activeSubMenuItem?.href}
+      buyCakeLabel={t('Buy CAKE')}
       {...props}
     />
   )
